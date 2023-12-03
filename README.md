@@ -7,7 +7,7 @@ Alongside the validation process, the overarching goal is to develop expertise i
 
 
 ## Selection of Data
-The model processing and training are conducted using a Colab Notebook and is available [here](codes/Predictive-Model.ipynb)
+The model processing and training are conducted using a Colab Notebook and is available [here](codes/Predictive_Model.ipynb)
 
 The data contains more that 300 samples of patient data, including these features:
 - age: Age of patient
@@ -70,6 +70,7 @@ load_model = tf.keras.models.load_model(‘heartattackpred.keras’)
 When initially examining the pair plot of the features for each patient, it’s hard to discern any clear patterns to determine whether a patient has a higher risk of experiencing a heart attack. However, in the world of machine learning models, they are able to identify things we can’t. Models possess an incredible capacity to go through complex datasets and uncover any details and patterns that aren’t clear to us. Learning to construct such a model has helped me understand how helpful machine learning can be. It’s not just about choosing a specific algorithm for the model, but how to select relevant features, fit the model to said features, and interpret the model’s predictions. This mindset has allowed me to understand the intricacies of making machine learning models and the field of predictive modeling.
 
 References
+
 [1] [Kaggle dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)
 
 [2] [TensorFlow](https://www.tensorflow.org/)
