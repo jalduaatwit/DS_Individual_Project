@@ -60,7 +60,7 @@ Functions:
 ## Results
 Prediction model can be found [here](data/heartattackpred.keras)
 Which can be loaded with the following:
-```
+```python
 import tensorflow as tf
 
 load_model = tf.keras.models.load_model(‘heartattackpred.keras’)
