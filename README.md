@@ -67,6 +67,10 @@ import tensorflow as tf
 load_model = tf.keras.models.load_model(‘heartattackpred.keras’)
 ```
 
+The results can be seen [here](graph/results2.png)
+
+You can see the predictions are mostly correct, and some predictions near the 40% - 60% range, they can either have an output of 0 or 1, which seems reasonable when talking about probability.
+
 ## Discussion and Summary
 When initially examining the pair plot of the features for each patient, it’s hard to discern any clear patterns to determine whether a patient has a higher risk of experiencing a heart attack. However, in the world of machine learning models, they are able to identify things we can’t. Models possess an incredible capacity to go through complex datasets and uncover any details and patterns that aren’t clear to us. Learning to construct such a model has helped me understand how helpful machine learning can be. It’s not just about choosing a specific algorithm for the model, but how to select relevant features, fit the model to said features, and interpret the model’s predictions. This mindset has allowed me to understand the intricacies of making machine learning models and the field of predictive modeling.
 
