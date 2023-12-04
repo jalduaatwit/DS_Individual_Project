@@ -3,11 +3,11 @@
 ## Introduction
 The main objective of this project is to develop and deploy a predictive model that is capable of estimating the likelihood of a patient experiencing a heart attack. Eventually, the model's prediction will be compared to actual results to assess its accuracy and validity.
 
-Alongside the validation process, the overarching goal is to develop expertise in model training, allowing for further creation of more robust and effective predictive models in the future
+Alongside the validation process, the overarching goal is to develop expertise in model training, allowing for further creation of more robust and effective predictive models in the future.
 
 
 ## Selection of Data
-The model processing and training are conducted using a Colab Notebook and is available [here](codes/Predictive_Model.ipynb)
+The model processing and training are conducted using a Colab Notebook and is available [here](codes/Predictive_Model.ipynb).
 
 The data contains more that 300 samples of patient data, including these features:
 - age: Age of patient
@@ -59,7 +59,7 @@ Functions:
  - Dataframe to Dataset
 
 ## Results
-Prediction model can be found [here](data/heartattackpred.keras)
+Prediction model can be found [here](data/heartattackpred.keras).
 
 Which can be loaded with the following:
 ```python
@@ -68,7 +68,7 @@ import tensorflow as tf
 load_model = tf.keras.models.load_model(‘heartattackpred.keras’)
 ```
 
-The results can be seen [here](graph/results2.png)
+The results can be seen [here](graph/results2.png).
 
 You can see the predictions are mostly correct, and some predictions near the 40% - 60% range, they can either have an output of 0 or 1, which seems reasonable when talking about probability.
 
