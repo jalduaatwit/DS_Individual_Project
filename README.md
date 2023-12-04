@@ -47,6 +47,7 @@ Normally for data there are both categorical and numerical features, therefore b
 ## Methods
 Tools:
 - NumPy, Matplotlib, Seaborn, Pandas, TensorFlow
+- Colab for Python notebook
 - GitHub for hosting
 
 Resources:
