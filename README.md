@@ -39,10 +39,10 @@ The data contains more that 300 samples of patient data, including these feature
 	- 1: more chance of heart attack
 
 Data preview:
-[preview](graph/data_preview.png)
+![preview](graph/data_preview.png)
 
 Normally for data there are both categorical and numerical features, therefore both types have to be handled in different ways, but since the data I use only contains numerical features, I only had to use a normalization layer.
-[layer](graph/normalization_layer.png)
+![layer](graph/normalization_layer.png)
 
 ## Methods
 Tools:
