@@ -5,6 +5,11 @@ The main objective of this project is to develop and deploy a predictive model t
 
 Alongside the validation process, the overarching goal is to develop expertise in model training, allowing for further creation of more robust and effective predictive models in the future.
 
+Some overall questions that I want to answer include:
+- Is there any correlation between features in each of the patients data that may help with the predictive model?
+- How do you make a predicitive model using TensorFlow?
+- How accurate is a predicitive model?
+
 
 ## Selection of Data
 The model processing and training are conducted using a Colab Notebook and is available [here](codes/Predictive_Model.ipynb).
@@ -72,8 +77,11 @@ The results can be seen [here](graph/results2.png).
 
 You can see the predictions are mostly correct, and some predictions near the 40% - 60% range, they can either have an output of 0 or 1, which seems reasonable when talking about probability.
 
-## Discussion and Summary
+## Discussion
 When initially examining the pair plot of the features for each patient, it’s hard to discern any clear patterns to determine whether a patient has a higher risk of experiencing a heart attack. However, in the world of machine learning models, they are able to identify things we can’t. Models possess an incredible capacity to go through complex datasets and uncover any details and patterns that aren’t clear to us. Learning to construct such a model has helped me understand how helpful machine learning can be. It’s not just about choosing a specific algorithm for the model, but how to select relevant features, fit the model to said features, and interpret the model’s predictions. This mindset has allowed me to understand the intricacies of making machine learning models and the field of predictive modeling.
+
+## Summary
+In summary, we can understand that there is no correlation between the features of each patient, but a predicitive model is still able to train itself to recognize patterns us humans can't see. The predicitive model was made using basic model compiling, fitting, and predicting TensorFlow operations. We were able to see that model was pretty accurate, but as previously mentioned, in the 40% - 60% range it's up in the air, which is reasonable for a 50% chance.
 
 References
 
